@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cookie",
+      "has_ender_eye"
+    ]
+  ],
+  "criteria": {
+    "has_cookie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cookie"
+          }
+        ]
+      }
+    },
+    "has_ender_eye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:ender_eye"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "abuelita:cookie_wand"
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "abuelita:cookie_wand"
+    ]
+  }
+}

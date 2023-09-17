@@ -1,0 +1,26 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " EC",
+    " SE",
+    "S  "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick",
+      "data": 0
+    },
+    "C": {
+      "item": "minecraft:cookie",
+      "data": 0
+    },
+    "E": {
+      "item": "minecraft:ender_eye",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "abuelita:cookie_wand",
+    "count": 1
+  }
+}

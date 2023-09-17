@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "abuelita:abuelita_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+
+    "salt": 1694767080,
+
+    "spacing": 150,
+
+    "separation": 125,
+
+    "exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "minecraft:villages"
+    }
+  }
+}
