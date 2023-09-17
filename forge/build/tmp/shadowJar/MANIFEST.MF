@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+MixinConfigs: abuelita.mixins.json,abuelita-common.mixins.json
+

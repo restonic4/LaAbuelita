@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "abuelita",
+  "version": "${version}",
+
+  "name": "Abuelita",
+  "description": "",
+  "authors": ["restonic4"],
+  "contact": {},
+
+  "license": "All Rights Reserved",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.restonic4.abuelita.fabric.AbuelitaFabric"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": ">=1.20.1",
+    "architectury": ">=6.2.43"
+  }
+}
